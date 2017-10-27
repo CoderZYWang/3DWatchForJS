@@ -1,0 +1,30 @@
+.tax-header img{ margin: 0;}
+body{padding:0; margin:0;}
+img{border:none;}
+#circlr {cursor: move;margin: 0 auto;min-height: 100px;position: relative;}
+#circlr #loader {background: url(../images/loader.gif) center center no-repeat;bottom: 0;display: none;left: 0;position: absolute;right: 0;top: 0;}
+.tax-padding{padding: 40px 10px 10px; background:url(../images/tax.png) no-repeat center 10px;}
+.tax-contianer{width: 450px; margin: 0 auto;}
+.tax-tools{clear: both; overflow: hidden; zoom:1; padding: 5px; text-align: center;}
+.tax-play,.tax-stop,.tax-zoom,.tax-daoshu{background: #dc0000; border: none; border-radius: 3px; height: 26px; width: 46px; text-align: center; overflow: hidden; font-size: 0; text-indent: -999px; line-height: 0; margin: 0 3px; padding: 0; vertical-align: middle;}
+.tax-daoshu{text-indent: 0; text-align: centerc; color: #fff; font-size: 12px; line-height: 26px; display: none;}
+.tax-play{display:none!important;background: #dc0000 url(../images/tax-play.png) no-repeat center center; background-size: auto 60%;}
+.tax-stop{display:none!important;background: #bfbfbf url(../images/tax-stop.png) no-repeat center center; background-size: auto 60%;}
+.tax-zoom{display:none!important;background: #017cc3 url(../images/tax-zoom.png) no-repeat center center; background-size: auto 60%;}
+.ckgdou{display:block; clear:both; padding:10px; text-align:center; font-size:12px;}
+.ckgdou a{display:block; border:1px solid #999; background:#fcfcfc; width:120px; text-align:center; margin:0 auto; color:#666; height:26px; line-height:26px; text-decoration:none; border-radius:5px;}
+.tax-list{overflow:hidden; padding:10px 0; margin:0;}
+.tax-list li{list-style:none; float:left; padding:10px; width:200px;}
+.tax-list li div{border:1px solid #ccc; overflow:hidden; background:url(../images/5-121204193956.gif) no-repeat center center; position: relative;}
+.tax-list li div .img-360{position: absolute; right: 5%; bottom: 5%; width: 18%; height: auto;z-index: 1;}
+.tax-list li img{width:100%; float:left;}
+.wnxw,.wnxw2{text-align:center; border-bottom:1px solid #ccc; padding:6px 4px 2px; font-size:12px; color:#888; line-height:18px;}
+.wnxw2{border:none; border-top:1px solid #ccc; padding:10px; background:#f8f8f8;}
+
+
+@media only screen and (max-width: 640px){
+	.tax-padding{padding: 10px; padding-top:30px; background-size:auto 20px;}
+    .tax-contianer{width: 100%;}
+
+	.tax-list li{width:48%; padding:1%;}
+}
